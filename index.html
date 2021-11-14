@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <title> Web Page </title>
+   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+   <style>
+      body
+      {
+      padding:50px;
+      }
+      div 
+    { 
+    background-color: #F2F3F4;
+    text-align: center;
+    height: 80vh;
+    padding-top: 5px;
+    }
+    .d1
+   { 
+    background-color: white;
+    width: 50vw;
+    height: 10vh; 
+    margin: 12px;
+    padding: 10px;
+    display:inline-block;
+    text-align:left;
+    border-radius: 10px;
+    box-shadow: 2px 2px rgb(214, 212, 212);
+    }
+    .material-icons
+    {
+    color:#F5B041;
+    }
+    button
+    {
+    border:none;
+    background: none;
+    }
+    #b1
+    {
+    padding-left:380px;
+    height:60px;
+    }
+    #b2
+    {
+    padding-left:430px;
+    height:60px;
+    }
+    #b3
+    {
+    padding-left:422px;
+    height:60px;
+    }
+   </style>
+</head>
+<body>
+<div>
+   <h1 style = "color:Gold; font-family:Cursive; font-weight:bolder">General Questions</h1>
+   
+   <div class = "d1" id = "a1">Do You Accept All Major Credit Cards?
+   <button id ="b1" onclick='document.getElementById("a1").innerHTML = "No"'><span class="material-icons">add_box</span></button></div>
+
+   <div class = "d1"id = "a2">Do You Support Local Farmers?
+   <button id ="b2" onclick='document.getElementById("a2").innerHTML = "Yes"'><span class="material-icons">add_box</span></button></div>
+   
+   <div class = "d1"id = "a3">Do You Use Organic Ingredients?
+   <button id ="b3" onclick='document.getElementById("a3").innerHTML = "Yes"'><span class="material-icons">add_box</span></button></div> 
+   
+</div>
+</body>
+</html>
